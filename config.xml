@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <config>
+	<id>widget visit-status</id>
 	<type>widget</type>
 	<category>
 		<main>statistics</main>
