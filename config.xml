@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+	<type>widget</type>
+	<category>
+		<main>statistics</main>
+		<sub>none</sub>
+	</category>
+	<name>
+		<en>Visit Statistics</en>
+		<ko>접속 통계</ko>
+	</name>
+	<version>0.1</version>
+	<author>JaeHo Song</author>
+	<email>thruthesky@gmail.com</email>
+	<homepage>http://jaehosong.com</homepage>
+	<demo>http://philgo.net</demo>
+	<short>
+		<en>Displays statistics of visit.</en>
+		<ko>접속 통계를 보여줍니다.</ko>
+	</short>
+	<detail>
+		<en>Displays statistics of visit.</en>
+		<ko>접속 통계를 보여줍니다.</ko>
+	</detail>
+</config>

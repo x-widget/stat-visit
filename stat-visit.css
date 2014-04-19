@@ -1,0 +1,36 @@
+#visit {
+	text-align:center;
+	color:#404040;
+}
+#visit a {
+
+	text-decoration:none;
+}
+
+#visit > .title {
+	font-weight: bold;
+	font-size: 1.1em;		
+}
+
+#visit .visit-content-wrapper .label {	
+	display:inline-block;
+}
+
+#visit .visit-content-wrapper .value {
+	display:inline-block;	
+}
+
+#visit .visit-content-wrapper .seperator {
+	display:inline-block;
+	padding:0 5px;
+	color:#000000;
+}
+
+#visit .visit-content-wrapper .value.no-visit {	
+	color:#bfbfbf;
+}
+
+#visit a {	
+	display:inline-block;
+	color:#404040;
+}
