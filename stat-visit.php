@@ -5,9 +5,9 @@ $visit = x::visit();
 
 ?>
 
-<div id="visit">
-	<div class='title'>접속자 통계</div>
+<div id="visit">	
 	<div class='visit-content-wrapper'>
+		<span class='visit_title'>접속자 통계</span>
 		<?
 		$labels = array("오늘","어제","최대","전체");
 		for( $i = 1; $i <= 4; $i++ ){		

@@ -7,9 +7,10 @@
 	text-decoration:none;
 }
 
-#visit > .title {
+#visit .visit_title {
 	font-weight: bold;
-	font-size: 1.1em;		
+	font-size: 1.1em;
+margin-right:10px;	
 }
 
 #visit .visit-content-wrapper .label {	
