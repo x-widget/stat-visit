@@ -11,13 +11,14 @@ $visit = x::visit();
 		<?
 		$labels = array("오늘","어제","최대","전체");
 		for( $i = 1; $i <= 4; $i++ ){		
-		if( number_format($visit[$i]) == 0 ) $no_visit = "no-visit";
+			if( $visit[$i+1] ) $num_of_visits = number_format($visit[$i+1]);
+			else $num_of_visits = 0;		
 		?>
 			<span class='label'>
 				<?=$labels[$i-1]?>
 			</span>
 			<span class='value <?=$no_visit?>'>
-				<?php echo number_format($visit[$i]) ?>
+				<?=$num_of_visits?>
 			</span>
 			
 			<?			
@@ -27,7 +28,8 @@ $visit = x::visit();
 		<?
 		}
 		?>		
-		<?php if ( admin() ) {  ?>		
+		<?php if ( admin() ) { 
+		?>		
 			<span class='seperator'>|</span>
 			<a href="<?php echo G5_ADMIN_URL ?>/visit_list.php">상세보기</a>		
 		<?php } ?>
